@@ -16,13 +16,13 @@ int main(){
 		charge = unit * 10;
 	}
 	else if(unit <= 200){
-		charge = 1000 + unit * 20;	
+		charge = unit * 20 - 1000;
 	}
 	else if(unit <= 300){
-		charge = 3000 + unit * 30;
+		charge = unit * 30 - 3000;
 	}
 	else if(unit > 300){
-		charge = 6000 + unit * 40;
+		charge = unit * 40 - 6000;
 	}
 	else{
 		printf("Invalid input");
