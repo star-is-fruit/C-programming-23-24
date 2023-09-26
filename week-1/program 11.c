@@ -15,7 +15,7 @@ int main(){
 		
 	si = (p * t * r)/100 + p;
 	
-	ci = pow(p * (r + 1),t);
+	ci = pow(p * (r/100 + 1),t);
 	
 	printf("The simple interest is: %f \nThe compound interest is: %f", si, ci);
 	
