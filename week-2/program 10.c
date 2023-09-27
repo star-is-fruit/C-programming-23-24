@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	int yr, month, day;
+	int yr, month;
 	
 	printf("Enter the year: ");
 	scanf("%d", &yr);
