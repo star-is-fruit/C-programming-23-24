@@ -8,8 +8,7 @@ int main(){
 	scanf("%d", &n);
 	
 	while(n){
-		bin += ((n % 2) * pow(10, i));
-		printf("%d", bin);
+		bin_r += ((n % 2) * pow(10, i));
 		n /= 2;
 		i++;
 		
